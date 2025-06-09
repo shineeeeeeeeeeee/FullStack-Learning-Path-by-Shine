@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animation</title>
+  <style>
+    .container {
+      height: 750px;
+      background-color: beige;
+      border: 5px solid black;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 40px;
+      position: relative;
+    }
+
+    .box {
+      width: 350px;
+      height: 80px;
+      background-color: blue;
+      border: 3px solid yellow;
+      border-radius: 10px;
+      position: absolute;
+      animation-duration: 5s;
+      animation-iteration-count: 2;
+      animation-delay: 1s;
+      animation-timing-function: cubic-bezier(0.25, 1.14, 0.77, -0.2);
+    }
+
+    #box1 {
+      top: 0;
+      left: 0;
+      animation-name: rightmove;
+    }
+
+    #box2 {
+      bottom: 0;
+      right: 0;
+      animation-name: leftmove;
+    }
+    .box2{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        border: 3px solid yellow;
+        border-radius: 50px;
+        margin: 10px;
+        position: relative;
+        top: 30%;
+        left: 40%;
+        animation: 10s ease-in-out 0s infinite alternate none running circlemove;
+    }
+    @keyframes rightmove {
+      from {
+        left: 0;
+      }
+      to {
+        left: 1200px;
+      }
+    }
+
+    @keyframes leftmove {
+      from {
+        right: 0;
+      }
+      to {
+        right: 1200px;
+      }
+    }
+
+    @keyframes circlemove {
+      0%{
+        top: 1%;
+        left: 5%;
+      }
+      30%{
+        top: 5%;
+        left: 90%;
+      }
+      60%{
+        top: 90%;
+        left: 10%;
+      }
+      100%{
+        top: 95%;
+        left: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box2"></div>
+  </div>
+</body>
+</html>

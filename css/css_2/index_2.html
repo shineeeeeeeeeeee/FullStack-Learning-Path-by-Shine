@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shadows</title>
+    <style>
+      .container {
+        background-color: aliceblue;
+        min-height: 100vh;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 35px;
+        padding: 20px;
+      }
+
+      .box {
+        background-color: aquamarine;
+        width: 330px;
+        height: 330px;
+        border: 1px solid blanchedalmond;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+      #box1{box-shadow: 10px 15px burlywood;}
+      #box2{box-shadow: 15px -16px teal;}
+      #box3{box-shadow: 10px 15px 5px rgb(113, 165, 108);}
+      #box4{box-shadow: 10px 15px 5px 10px rgb(121, 108, 165);}
+      #box5{box-shadow: inset 15rem 5em gold}
+      #box6{box-shadow: 3px 3px red, -1em 0 0.4em olive;}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="box1">
+        <h1>This is shine!</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit...</h3>
+      </div>
+      <div class="box" id="box2">
+        <h1>This is shine!</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit...</h3>
+      </div>
+      <div class="box" id="box3">
+        <h1>This is shine!</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit...</h3>
+      </div>
+      <div class="box" id="box4">
+        <h1>This is shine!</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit...</h3>
+      </div>
+      <div class="box" id="box5">
+        <h1>This is shine!</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit...</h3>
+      </div>
+      <div class="box" id="box6">
+        <h1>This is shine!</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit...</h3>
+      </div>
+    </div>
+  </body>
+</html>
