@@ -15,7 +15,7 @@ Welcome to my Full Stack Learning Path repository! This repo documents my journe
 
 A sleek and interactive web app that visualizes a LeetCode user's problem-solving progress in real time using animated circular progress bars. ✨
 
-![Preview](preview.png) <!-- Optional: Replace with a screenshot of your app -->
+<img width="1162" alt="Image" src="https://github.com/user-attachments/assets/dd2aa82b-ffef-43ca-9705-777ed22c6d6c" />
 
 ## 🚀 Features
 
@@ -24,11 +24,6 @@ A sleek and interactive web app that visualizes a LeetCode user's problem-solvin
 - 🌈 Dynamic UI with summary stats and last updated time
 - 🌐 Direct link to the searched user's LeetCode profile
 - 💡 Continuous glow effect for a polished visual experience
-
-## 📸 Live Demo
-
-👉 [Try it live](https://yourusername.github.io/leetcode-stats-visualizer)  
-*(Replace with your GitHub Pages link)*
 
 ## 🛠️ Technologies Used
 
