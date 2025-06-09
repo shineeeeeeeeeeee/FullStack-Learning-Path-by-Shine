@@ -36,7 +36,7 @@ A sleek and interactive web app that visualizes a LeetCode user's problem-solvin
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/leetcode-stats-visualizer.git
+   git clone https://github.com/shineeeeeeeeeeee/FullStack-Learning-Path-by-Shine.git
    cd leetcode-stats-visualizer
 
 2. Open index.html in your browser
