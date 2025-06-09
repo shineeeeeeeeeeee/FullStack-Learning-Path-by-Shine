@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #E6E6FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.card img{
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 70%;
+    text-align: center;
+}
+
+.amount{
+    width: 80%;
+    height: 10%;
+    background-color: rgba(176, 186, 242, 0.62);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.payment{
+    width: 80%;
+    height: 9%;
+    border-radius: 10px;
+    background-color: rgb(17, 19, 79);
+    color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cancel a{
+    text-decoration: none;
+    color: rgb(84, 72, 72);
+    font-weight: bold;
+}
+
+.leftbox{
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+    height: 100%;
+
+    align-items: center;
+}
+
+.imgbox img{
+    height: 3.5rem;
+    width: 3.5rem;
+}

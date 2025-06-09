@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F08080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 360px;
+    max-height: 650px; /* Reduced and made it flexible */
+    background-color: azure;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Reduced gap */
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Keep it proportional */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: cursive;
+    padding: 0 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    padding: 0 10px;
+    line-height: 1.4;
+}

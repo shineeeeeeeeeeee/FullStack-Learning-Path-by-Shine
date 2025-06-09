@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetMetric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- heading -->
+        <h1>LeetMetric</h1>
+
+        <!-- user -->
+        <div class="user-container">
+            <p>Enter your username below!</p>
+            <div class="user-input-container">
+                <input type="text" placeholder="Enter your username here" id="user-input">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <!-- stat -->
+        <div class="stat-container">
+
+            <div class="progress">
+                <div class="progress-item">
+                    <div class="easy-progress circle"></div>
+                    <span id="easy-label" class="label-text"></span>
+                    <div>Easy</div>
+                </div>
+                <div class="progress-item">
+                    <div class="med-progress circle"></div>
+                    <span id="med-label" class="label-text"></span>
+                    <div>Medium</div>
+                </div>
+                <div class="progress-item">
+                    <div class="hard-progress circle"></div>
+                    <span id="hard-label" class="label-text"></span>
+                    <div>Hard</div>
+                </div>
+            </div>
+            
+
+            <div class="stats-card">
+                <!-- directly populate card here from js code -->
+            </div>
+        </div>
+
+        <!-- Add inside .container below .stat-container -->
+
+        <div class="summary-container" style="text-align:center; margin-top: 1rem; display:none;">
+            <p id="total-solved"></p>
+            <p><a href="#" target="_blank" id="profile-link" style="color:#299f5d; text-decoration:none; font-weight:600;"></a></p>
+            <p id="last-updated" style="font-size: 0.8rem; color: #aaa;"></p>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
