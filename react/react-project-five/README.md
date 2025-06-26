@@ -2,6 +2,7 @@ State Lifting -> Case where two child wants to share a state, then the state is 
 
 // useCase -> search engine (filtering by displaying results with keywords)
 
+![Screenshot](src/assets/img.png)
 
 # React + Vite
 
