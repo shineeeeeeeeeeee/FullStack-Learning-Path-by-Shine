@@ -4,6 +4,8 @@ use effect -> react hook to generate side effect(action or event created).
 for example -> count update is an event and alert created after every count is called side effect.
             -> when login -> dashboard fetches user image and displays in UI, called side effect.
 
+![Screenshot](src/assets/img.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
