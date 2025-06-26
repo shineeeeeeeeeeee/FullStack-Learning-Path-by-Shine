@@ -3,7 +3,7 @@ useCallback -> Can cache any member's function reference / memoise or freeze
 Advantages -> unnecessary rerender of child component prevention
            -> Handling expensive operations
 
-![Screenshot](react/react-project-fifteen/src/assets/imgg.png)
+![Screenshot](src/assets/imgg.png)
 
 # React + Vite
 
