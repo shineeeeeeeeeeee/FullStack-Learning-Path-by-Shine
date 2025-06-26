@@ -23,6 +23,8 @@ Steps:
 3 -> Create slice for features
 4 -> Exported Reducer should be registered in store
 
+![Screenshot](src/assets/img.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
