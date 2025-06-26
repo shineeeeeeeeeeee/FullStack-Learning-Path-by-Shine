@@ -1,6 +1,8 @@
 Components : These are sections of an entire webpage created by functions and class based components, this gives you html code to render.
 
-Props : Data being passed. [<UserCard name="Shine" />]
+Props : Data being passed. (UserCard name="Shine" /)
+
+![Screenshot](src/assets/img.png)
 
 
 # React + Vite
