@@ -9,6 +9,8 @@ useNavigation -> Moving from one page to another dynamically (Nav Hook)
 
 Nested Routing -> Layered by layered movement. example -> home/exams, home/fees, home/result
 
+![Screenshot](src/assets/img.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
