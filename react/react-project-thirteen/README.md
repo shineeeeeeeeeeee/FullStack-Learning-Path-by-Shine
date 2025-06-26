@@ -2,6 +2,7 @@ useRef -> There are 2 use cases: Variable persisting across rerender -> to chang
        -> Directly able to access content of element from DOM
 When useState changes then website gets rerender but it doesn't happens for useRef
 
+![Screenshot](src/assets/img.png)
 
 # React + Vite
 
