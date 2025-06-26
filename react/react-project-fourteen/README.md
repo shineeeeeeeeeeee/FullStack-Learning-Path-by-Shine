@@ -3,6 +3,8 @@ Memoisation -> To store values of a task to reuse and to display rather than ren
 
 useMemo Hook -> To prevent expensive operations (unnecessary operations being executed)
 
+![Screenshot](src/assets/img.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
