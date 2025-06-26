@@ -4,6 +4,7 @@ useContext Hook -> Transferring of components to specific endpoints only, parent
 -> consume
 These are the 3 steps to transfer data.
 
+![Screenshot](src/assets/img.png)
 
 # React + Vite
 
