@@ -10,8 +10,8 @@ Welcome to my Full Stack Learning Path repository! This repo documents my journe
 - **Tailwind/** — Utility-first CSS framework experiments and examples  
 - **MongoDB/** — Database fundamentals, CRUD operations, and aggregation pipelines  
 - **Projects/** — Full projects combining frontend and backend tech, showcasing practical applications  
-## 🌟 Featured Projects
-# 1. LeetCode Stats Visualizer
+## 🌟 Featured Project
+# LeetCode Stats Visualizer
 
 A sleek and interactive web app that visualizes a LeetCode user's problem-solving progress in real time using animated circular progress bars. ✨
 
